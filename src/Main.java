@@ -9,9 +9,12 @@ public class Main {
         int m = 20;
 
         int a = x / m;
-
+        
         System.out.println( x / m );
 
-        
+
+
+
+
     }
 }
