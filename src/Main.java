@@ -1,19 +1,14 @@
 public class Main {
     public static void main(String[] args) {
 
-        // Стоимость билета //
-        int x = 10_000;
 
-        //  количество рублей для одной бонусной мили //
+        int ticket_price = 10_000;
 
-        int m = 20;
+        int bonus = 20;
 
-        int a = x / m;
+        int amount = ticket_price / bonus ;
         
-        System.out.println( x / m );
-
-
-
+        System.out.println("Количество начисленных миль: " + bonus);
 
 
     }
